@@ -1,0 +1,19 @@
+﻿- SqlServer created: sqlserverhackaton2
+
+- Db Created: sqlserverhackaton2
+
+- Tables created: Sensors, SensorData
+
+- EventHub service created: eventhubHackaton2 (eventhubHackaton2.servicebus.windows.net)
+
+- EventHub created: sensorsHubHackaton2
+
+- SharedPolicy created: PolicyHackaton2
+
+- Stream analitycs created: StreamAnalitycsHackaton2
+
+- Stream input created: StreamInputHackaton2 sync with sensorsHubHackaton2
+
+- Stream output created: StreamOutputHackaton2 sync with SensorData table
+
+- Stream query created: "SELECT SensorName, SensorValue, EventProcessedUtcTime INTO [StreamOutputHackaton2] FROM [StreamInputHackaton2]"

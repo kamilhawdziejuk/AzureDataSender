@@ -1,0 +1,1 @@
+{"SensorName":"guid","SensorValue":"939c5623-181a-4475-802b-0a26993fdf05","EntryDateTime":"2017-02-12T20:43:53.6278608+01:00"}
